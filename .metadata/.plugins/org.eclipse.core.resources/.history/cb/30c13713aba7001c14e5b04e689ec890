@@ -1,0 +1,43 @@
+package com.example;
+import java.util.Scanner;
+/**
+ * 
+ *
+ * A tarefa aqui é implementar uma função que diz se uma determinada string é
+ * palíndromo.
+ *
+ *
+ *
+ * Definição=> Um palíndromo é uma palavra, frase, número ou outra sequência de
+ * caracteres que são lidos da mesma forma para frente e para trás, como madame ou
+ * carro de corrida.
+ * 
+ */
+public class TASK1 {
+	 public class Palidrono {
+	    	public static void main(String[]args) {
+	    		Scanner sc = new Scanner(System.in);
+	    		
+	    		System.out.println("Digite uma palavra ou frase:");
+	    		String palavra = sc.nextLine();
+	    		String palindromo = "";
+	    		
+	    		for(int i = palavra.length() -1; i >= 0; i--){
+	    			
+	    			palindromo += palavra.charAt(i);
+
+	    		}
+	    		
+	    		if(palindromo.equals(palavra)) {
+	    			System.out.print("É um palíndromo!" + "\n" + palindromo);
+	    		}
+	    		else {
+	    			System.out.print("Não é um palíndromo!" + "\n" + palindromo);
+	    			
+	    		}
+	    		sc.close();
+	    	}
+
+	    }
+	
+}

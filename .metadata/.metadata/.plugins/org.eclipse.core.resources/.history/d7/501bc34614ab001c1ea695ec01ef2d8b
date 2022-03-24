@@ -1,0 +1,50 @@
+package com.example;
+import java.util.LinkedList;
+//import java.util.Scanner;
+
+/**
+A tarefa aqui é escrever uma lista. Cada elemento deve conhecer o elemento antes e
+ * depois disso. Imprima sua lista e remova o elemento no meio
+ * a lista. Imprima novamente.
+ *
+ * 
+ */
+public class TASK2 {
+	
+	
+	    public static void main(String[] args) {
+      
+	    //Cria a lista.	
+        LinkedList<String> text = new LinkedList<>();
+        text.add("ABC");
+        text.add("CDF");
+        text.add("KJK");
+
+        
+        System.out.println("Lista de Strings: \n" + text);
+        text.remove(1);
+
+       /* double posicaoParaRemover = Math.ceil(text.size() / 2);
+        int indiceElementoMeio = (int) posicaoParaRemover;
+
+        if (text.size() % 2 == 0) {
+        	text.remove(indiceElementoMeio - 1);
+        } else {
+        	text.remove(indiceElementoMeio);
+        }*/
+
+        System.out.println("Lista sem o número do meio: \n" + text);
+        
+       /* System.out.println("Digite seu nome completo: ");
+        Scanner entrada = new Scanner(System.in);
+        String nome = entrada.nextLine();
+
+        ignoreMiddleName(nome);*/
+    }
+	   /* public static void ignoreMiddleName(String fullName) {
+	        String[] names = fullName.split(" ");
+
+	        System.out.println(names[0] + " " + names[names.length - 1]);
+	    }*/
+	    
+}

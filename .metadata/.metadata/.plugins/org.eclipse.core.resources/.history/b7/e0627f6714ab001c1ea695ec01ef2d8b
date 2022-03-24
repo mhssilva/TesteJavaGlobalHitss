@@ -1,0 +1,32 @@
+package com.example;
+import java.util.LinkedList;
+//import java.util.Scanner;
+
+/**
+A tarefa aqui é escrever uma lista. Cada elemento deve conhecer o elemento antes e
+ * depois disso. Imprima sua lista e remova o elemento no meio
+ * a lista. Imprima novamente.
+ *
+ * 
+ */
+public class TASK2 {
+	
+	public static void removeMidValue(int arraySize) {
+        LinkedList<Integer> numeros = new LinkedList<>();
+        for(int i=0; i < arraySize; i++) {
+            numeros.add(i);
+        }
+
+        System.out.println("Lista de números: \n" + numeros);
+
+        int posicaoParaRemover = numeros.size() / 2;
+
+        int removedNumber = numeros.get(posicaoParaRemover);
+
+        numeros.remove(removedNumber);
+        System.out.println("Numero removido: " + removedNumber);
+        System.out.println("Lista sem o número do meio: \n" + numeros);
+    }
+	  
+	    
+}

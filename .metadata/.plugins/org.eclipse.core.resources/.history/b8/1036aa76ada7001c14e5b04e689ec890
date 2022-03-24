@@ -1,0 +1,40 @@
+package com.example;
+import java.util.List;
+import javax.swing.*;
+/**
+ * 
+ *
+ * A tarefa aqui é implementar uma função que diz se uma determinada string é
+ * palíndromo.
+ *
+ *
+ *
+ * Definição=> Um palíndromo é uma palavra, frase, número ou outra sequência de
+ * caracteres que são lidos da mesma forma para frente e para trás, como madame ou
+ * carro de corrida.
+ * 
+ */
+
+
+class Palindrome{  
+	
+public static void main(String[] args) {
+       
+       String palavra, palavraInvertida="";
+       int tamanho,i;
+
+
+       // Armazena a palavra numa String
+       palavra = JOptionPane.showInputDialog(null,"Digite uma palavra"); 
+
+
+       //tamanho recebe o qtd de letras q possui a palavra
+       tamanho=palavra.length(); 
+       
+       
+       //pega a ultima letra da variavel palavra, e inseri na primeira de palavraInvertida, depois pega penultima e inseri na 2ª, e assim em diante, até pegar a primeira, e colocar na ultima.
+       for(i=tamanho-1;i>=0;i--){  
+           palavraInvertida += palavra.charAt(i);
+        }
+	}
+}

@@ -1,0 +1,11 @@
+package com.example;
+
+
+/**
+ * Escreva uma lista e adicione um número aleatório de Strings. No final, imprima como
+ * muitos itens distintos existem na lista.
+ *
+ */
+public class TASK3 {
+	
+}

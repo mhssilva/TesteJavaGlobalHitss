@@ -1,0 +1,19 @@
+Imagine que na empresa Hitss temos que logar todos os dias no mesmo site e isso se torna cansativo, pois todos os dias fazemos a mesma coisa.
+Joãozinho começou a estudar Java e viu que era possivel agendar através do FrameWork Springboot e utilizando a biblioteca do selenium, automatizar
+o processo de login, e para provar ele decidiu criar uma POC em que o seu robo logaria numa plataforma de testes. Então decidiu fazer o login utilizando três tipos de função
+disponibilizada pela biblioteca do selenium. Utilizando findByElement(By.xpath("xpath")), findByElement(By.id("id")) e findByElement(By.name("name")) na implementação.
+Assim ele pode considerar os 3 tipos de situações que podem ocorrer quando começar a implementar os cenarios de produção.
+
+Utilize qualquer IDE que compile Java Spring Boot 
+Utilize Maven. ok
+Utilize Java com o framework spring boot. 
+Utilize Selenium.
+O site de testes é um html deixado no conjunto de pastas.
+
+Os outros exercicios precisarão ser feitos.
+Se atente ao enunciado, pois precisará interpretar.
+
+Se puder commitar num repositorio publico e me enviar o link será otimo.
+
+Boa sorte.
+

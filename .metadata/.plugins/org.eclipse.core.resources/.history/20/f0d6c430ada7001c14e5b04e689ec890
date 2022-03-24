@@ -1,0 +1,31 @@
+package com.example;
+import java.util.List;
+/**
+ * 
+ *
+ * A tarefa aqui é implementar uma função que diz se uma determinada string é
+ * palíndromo.
+ *
+ *
+ *
+ * Definição=> Um palíndromo é uma palavra, frase, número ou outra sequência de
+ * caracteres que são lidos da mesma forma para frente e para trás, como madame ou
+ * carro de corrida.
+ * 
+ */
+public class TASK1 {
+	public class Palindrome {
+        public static void main(String[] args) {
+                int i = 0;
+                while (i < args[0].length()) {
+                        if (args[0].charAt(i) != args[0].charAt(args[0].length() - i -1)) {
+                                System.out.println("Nao eh palindrome.");
+                                System.exit(0);
+                        }
+                        i++;
+                }
+                System.out.println("Eh palindrome");
+        }
+}
+	
+}
